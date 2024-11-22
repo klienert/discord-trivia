@@ -4,7 +4,8 @@
   "description": "Discord Trivia App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js", 
+    "devStart": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5",
     "node": "^18.20.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
